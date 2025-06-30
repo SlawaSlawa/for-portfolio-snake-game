@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Snake - Game</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/main.js" defer></script>
+    </head>
+    <body>
+        <div id="app">
+            <div class="container">
+                <h1 class="title">Snake - Game</h1>
+                <button class="btn btn--start" id="start-btn">Start</button>
+                <div class="score">Score: <span>100</span></div>
+                <div class="record">Record: <span>200</span></div>
+                <canvas class="canvas" width="300" height="300"></canvas>
+                <div class="overlay">
+                    <div class="overlay__modal">
+                        <p class="overlay__text">
+                            Game Over! <br /><br />
+                            Score: <span class="overlay__score">100</span><br />
+                            Record: <span class="overlay__record">150</span>
+                        </p>
+                        <button class="btn btn--restart" id="restart-btn">
+                            Restart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
